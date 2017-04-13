@@ -201,6 +201,8 @@ h2 {
 
 .footer-1 h3 {
   color: white;
+  border-top: solid 1px white;
+  padding-top: 15px;
 }
 
 .footer-2 {
