@@ -95,6 +95,15 @@ h2 {
   margin-bottom: 20px;
 }
 
+.ultima-pregacao {
+  opacity: 0;
+}
+
+.ultima-pregacao .animated {
+  opacity: 1;
+  animation-duration: 1s;
+}
+
 .agenda-semanal {
   text-align: center;
   color: #ecf0f1;
@@ -139,6 +148,12 @@ h2 {
 
 .noticia {
   padding: 20px;
+  opacity: 0;
+  animation-duration: 1s;
+}
+
+.noticia .animated {
+  opacity: 1;
 }
 
 .noticia img {
@@ -184,6 +199,11 @@ h2 {
   /* inline-block space fix */
   margin-right:-4px;
   margin: 10px;
+  opacity: 0;
+}
+
+.federacao .animated {
+  opacity: 1;
 }
 
 .federacao img {
