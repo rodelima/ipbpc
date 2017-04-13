@@ -32,4 +32,21 @@ $(document).ready(function(){
     offset: '80%'
   });
 
+  /* Mobile Nav */
+
+  $('.mobile-nav-icon').click(function(){
+    var nav = $('.main-nav');
+    var icon = $('.mobile-nav-icon i');
+
+    if (icon.hasClass('fa-bars')){
+      nav.removeClass('menu-off');
+      icon.addClass('fa-times');
+      icon.removeClass('fa-bars');
+    } else {
+      nav.addClass('menu-off');
+      icon.addClass('fa-bars');
+      icon.removeClass('fa-times');
+    }
+  });
+
 });

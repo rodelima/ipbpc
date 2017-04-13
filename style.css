@@ -3,6 +3,16 @@ body {
   background-color: #f2f4f7;
 }
 
+nav li {
+  list-style: none;
+  display: inline-block;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
 .row {
   margin-right: 0;
 }
@@ -45,10 +55,24 @@ body {
   right: 0;
 }
 
+.mobile-nav-icon{
+  float:right;
+  display: none;
+}
+
+.mobile-nav-icon i {
+  font-size: 200%;
+  color: white;
+}
+
+.main-nav {
+  display: block;
+}
+
 .menu-topo {
-  height: 50px;
+  min-height: 50px;
+  height: auto;
   background-color: #00612e;
-  overflow: hidden;
 }
 
 .menu-topo a {
@@ -243,7 +267,7 @@ h2 {
    margin-top:-500px;  /* your iframe height */
 }
 
-@media (max-width:768px){
+@media only screen and (max-width:767px){
   .dia-agenda {
   }
   .slide {
@@ -256,5 +280,24 @@ h2 {
   .pregacao-home iframe {
     width: 90%;
     height: 50vw;
+  }
+  .menu-topo a {
+    line-height: normal;
+  }
+  .mobile-nav-icon{
+    display: block;
+  }
+  .main-nav {
+    float:left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .main-nav li {
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .menu-off {
+    display: none;
   }
 }
