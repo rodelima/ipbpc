@@ -1,0 +1,170 @@
+body {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+.top-page {
+  font-size: 22px;
+}
+
+.container-fluid {
+  padding-left: 0;
+}
+
+.logo, .social, .logo-2 {
+  display: inline-block;
+}
+
+.top-nav {
+  position: relative;
+}
+
+.logo img, .logo-2 img  {
+  height: 110px;
+}
+
+.social {
+  font-size: 28px;
+  position: absolute;
+  bottom: 0;
+  padding: 5px 10px;
+}
+
+.logo-2 {
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+}
+
+.menu-topo {
+  height: 50px;
+  background-color: #27ae60;
+}
+
+.menu-topo a {
+  line-height: 50px;
+  vertical-align: middle;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+.bg-cloud {
+  background-color: #ecf0f1;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.section-margin {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.agenda-semanal, .ultima-pregacao {
+  margin-bottom: 20px;
+}
+
+.agenda-semanal {
+  text-align: center;
+}
+
+.dia-agenda {
+  text-align: center;
+}
+
+.box {
+  display: inline-block;
+    text-align: center;
+    border: solid 1px black;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.dia-agenda p {
+  margin-bottom: 0;
+}
+
+.descricao-agenda {
+  text-align: center;
+  font-size: 18px;
+  vertical-align: top;
+  line-height: 57px;
+  margin-left: 5px;
+}
+
+.pregacao-home{
+  text-align: center;
+}
+
+.pregacao-home iframe {
+  width: 80%;
+  height: 35vw;
+}
+
+@media (max-width:801px){
+  .pregacao-home iframe {
+    width: 100%;
+    height: 50vw;
+  }
+}
+
+.noticia {
+  padding: 20px;
+}
+
+.noticia img {
+  width: 100%;
+}
+
+.bg-green {
+  background-color: #27ae60;
+  color: white;
+}
+
+.federacoes {
+  text-align: center;
+}
+
+.center-col {
+  display:inline-block;
+  float:none;
+  /* reset the text-align */
+  text-align:left;
+}
+
+@media (min-width:801px) {
+  .center-col {
+    /* inline-block space fix */
+    margin-right:-4px;
+  }
+}
+
+.federacao {
+  display:inline-block;
+  float:none;
+  /* reset the text-align */
+  text-align:left;
+  /* inline-block space fix */
+  margin-right:-4px;
+  margin: 20px;
+}
+
+.federacao img {
+  width: 100%;
+}
+
+.footer-1 {
+  background-color: #0e0e0e;
+  height: 300px;
+  color: white;
+}
+
+.footer-2 {
+  text-align: center;
+  background-color: black;
+  height: 40px;
+  color: white;
+  padding-top: 10px;
+}
