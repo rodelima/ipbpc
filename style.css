@@ -196,8 +196,10 @@ h2 {
 }
 
 .footer-1 {
-  background-color: #00612e;
-  height: 300px;
+  color: #ccc9c9;
+}
+
+.footer-1 h3 {
   color: white;
 }
 
