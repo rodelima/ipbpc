@@ -222,7 +222,7 @@ nav ul {
   height: 500px;
   transform: translateY(25%);
   text-align: center;
-  padding: 30px 15px;
+  padding: 0 20px;
 }
 
 .endereco-mapa i {
@@ -265,6 +265,7 @@ nav ul {
   .endereco-mapa {
     height: auto;
     transform: translateY(0%);
+    padding: 60px 15px;
   }
 }
 

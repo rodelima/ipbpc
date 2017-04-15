@@ -9,7 +9,7 @@ $(document).ready(function(){
   });
 
   $('.ultima-pregacao').waypoint(function(direction){
-    $('.ultima-pregacao').addClass('animated zoomIn')
+    $('.ultima-pregacao').addClass('animated fadeIn')
   }, {
     offset: '75%'
   });
