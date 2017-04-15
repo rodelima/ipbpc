@@ -261,14 +261,6 @@ nav ul {
   max-height: 500px;
 }
 
-@media only screen and (max-width:991px){
-  .endereco-mapa {
-    height: auto;
-    transform: translateY(0%);
-    padding: 60px 15px;
-  }
-}
-
 @media only screen and (max-width:767px){
   .dia-agenda {
   }
@@ -305,6 +297,11 @@ nav ul {
   .less-5 {
     max-height: none;
   }
+    .endereco-mapa {
+      height: auto;
+      transform: translateY(0%);
+      padding: 60px 15px;
+    }
 }
 
 .animated {
