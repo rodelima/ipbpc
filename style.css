@@ -156,18 +156,13 @@ nav ul {
 }
 
 .slide {
-  width: 120vh;
+  width: 80%;
 }
 
 
 
 .pregacao-home{
   text-align: center;
-}
-
-.pregacao-home iframe {
-  width: 75%;
-  height: 40vw;
 }
 
 .noticia {
@@ -223,9 +218,15 @@ nav ul {
   width: 100%;
 }
 
+.endereco-mapa {
+  height: 500px;
+  transform: translateY(25%);
+  text-align: center;
+  padding: 30px 15px;
+}
+
 .endereco-mapa i {
   font-size: 52px;
-  margin-top: 20vh;
 }
 
 .footer-1 {
@@ -257,7 +258,14 @@ nav ul {
 }
 
 .less-5 {
-  max-height: 67.6vh;
+  max-height: 500px;
+}
+
+@media only screen and (max-width:991px){
+  .endereco-mapa {
+    height: auto;
+    transform: translateY(0%);
+  }
 }
 
 @media only screen and (max-width:767px){
