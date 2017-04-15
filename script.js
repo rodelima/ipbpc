@@ -3,21 +3,21 @@ $(document).ready(function(){
   /* Animações com Scroll */
 
   $('.dia-agenda').waypoint(function(direction){
-    $('.dia-agenda').addClass('animated tada')
+    $('.dia-agenda').addClass('animated fadeIn')
   }, {
     offset: '80%'
   });
 
   $('.ultima-pregacao').waypoint(function(direction){
-    $('.ultima-pregacao').addClass('animated fadeInRight')
+    $('.ultima-pregacao').addClass('animated zoomIn')
   }, {
-    offset: '60%'
+    offset: '75%'
   });
 
   $('.noticia').waypoint(function(direction){
     $('.noticia').addClass('animated fadeIn')
   }, {
-    offset: '70%'
+    offset: '75%'
   });
 
   $('.federacao').waypoint(function(direction){

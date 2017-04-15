@@ -1,7 +1,40 @@
+/* GERAIS */
+
 body {
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-  background-color: #f2f4f7;
 }
+
+.row {
+  margin-right: 0;
+}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+  padding-right: 0;
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.bg-cloud {
+  background-color: #ecf0f1;
+}
+
+h2 {
+  text-align: center;
+  color: #00612e;
+  margin-top: 0;
+}
+
+.center-col {
+  display:inline-block;
+  float:none;
+  /* reset the text-align */
+  text-align:left;
+}
+
+/* TOPO DO SITE */
 
 nav li {
   list-style: none;
@@ -13,21 +46,8 @@ nav ul {
   padding: 0;
 }
 
-.row {
-  margin-right: 0;
-}
-
-.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
-  padding-right: 0;
-}
-
 .top-page {
   font-size: 22px;
-}
-
-.container-fluid {
-  padding-left: 0;
-  padding-right: 0;
 }
 
 .logo, .social, .logo-2 {
@@ -83,19 +103,11 @@ nav ul {
   padding: 10px 20px;
 }
 
-.bg-cloud {
-  background-color: #ecf0f1;
-}
-
-h2 {
-  text-align: center;
-  margin-bottom: 20px;
-  color: #00612e;
-}
+/* SEÇÕES */
 
 .section-margin {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .section-margin-small {
@@ -103,21 +115,30 @@ h2 {
   padding-bottom: 20px;
 }
 
-.call-to-action {
-  background-color: #00612e;
-}
-
-.call-to-action h2 {
-  color: white
-}
-
-.button-call {
-  background-color: none;
-}
+/* AGENDA SEMANAL */
 
 .agenda-semanal, .ultima-pregacao {
   margin-bottom: 20px;
 }
+
+.agenda-semanal {
+  text-align: center;
+  color: #00612e;
+}
+
+.dia-agenda {
+  text-align: center;
+  margin: 40px 5% 0 5%;
+  border: double #00612e;
+  opacity: 0;
+  font-size: 16px;
+}
+
+.agenda-semanal h2 {
+  color: #00612e;
+}
+
+/* ULTIMA PREGAÇÃO */
 
 .ultima-pregacao {
   opacity: 0;
@@ -128,35 +149,14 @@ h2 {
   animation-duration: 1s;
 }
 
-.agenda-semanal {
-  text-align: center;
-  color: #ecf0f1;
-}
-
-.dia-agenda {
-  text-align: center;
-  margin: 10px 5% 0 5%;
-  border: double white;
-}
-
 .dia-agenda h3 {
   text-align: center;
   margin-top: 10px;
-  color: white;
-}
-
-.agenda-semanal h2 {
-  color: white;
+  color: #00612e;
 }
 
 .slide {
   width: 120vh;
-}
-
-.visita h3 {
-  color: white;
-  text-align: center;
-  margin-bottom: 20px;
 }
 
 
@@ -174,10 +174,6 @@ h2 {
   padding: 20px;
   opacity: 0;
   animation-duration: 1s;
-}
-
-.noticia .animated {
-  opacity: 1;
 }
 
 .noticia img {
@@ -199,13 +195,6 @@ h2 {
 
 .federacoes {
   text-align: center;
-}
-
-.center-col {
-  display:inline-block;
-  float:none;
-  /* reset the text-align */
-  text-align:left;
 }
 
 @media (min-width:768px) {
@@ -241,21 +230,21 @@ h2 {
 
 .footer-1 {
   color: #ccc9c9;
+  padding-bottom: 50px;
 }
 
 .footer-1 h3 {
   color: white;
-  border-top: solid 1px white;
   padding-top: 15px;
+  padding-bottom: 10px;
 }
 
 .footer-2 {
   border-top: solid 1px white;
   text-align: center;
-  background-color: #00612e;
-  height: 40px;
+  background-color: #001001;
   color: white;
-  padding-top: 10px;
+  padding: 30px;
 }
 
 .overlay {
@@ -265,6 +254,10 @@ h2 {
    height:500px; /* your iframe height */
    top:500px;  /* your iframe height */
    margin-top:-500px;  /* your iframe height */
+}
+
+.less-5 {
+  max-height: 67.6vh;
 }
 
 @media only screen and (max-width:767px){
@@ -300,4 +293,11 @@ h2 {
   .menu-off {
     display: none;
   }
+  .less-5 {
+    max-height: none;
+  }
+}
+
+.animated {
+  opacity: 1;
 }
