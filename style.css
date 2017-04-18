@@ -17,6 +17,11 @@ body {
   padding-right: 0;
 }
 
+.container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .bg-cloud {
   background-color: #ecf0f1;
 }
@@ -34,6 +39,15 @@ h2 {
   text-align:left;
 }
 
+ul {
+  list-style: none;
+  margin-bottom: 0;
+}
+
+li {
+  display: inline-block;
+}
+
 /* TOPO DO SITE */
 
 nav li {
@@ -47,7 +61,21 @@ nav ul {
 }
 
 .top-page {
-  font-size: 22px;
+  background-color: #f1f5f8;
+  padding: 5px 5%;
+  color: #384554;
+  font-size: 12px;
+}
+
+.top-page li {
+  margin-right: 20px;
+  padding-top: 6px;
+}
+
+.top-page i {
+  font-size: 14px;
+  margin-right: 5px;
+  color: #99a3b0;
 }
 
 .logo, .social, .logo-2 {
@@ -63,10 +91,23 @@ nav ul {
 }
 
 .social {
-  font-size: 28px;
-  position: absolute;
-  bottom: 0;
-  padding: 5px 10px;
+  text-align: right;
+}
+
+.social li {
+  margin-right: 5px;
+  background-color: white;
+  padding: 5px;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+}
+
+.social i {
+  font-size: 14px;
+  margin-right: 0;
+  vertical-align: middle;
 }
 
 .logo-2 {
