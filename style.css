@@ -20,6 +20,11 @@ body {
 .container {
 }
 
+.super-container{
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
 .bg-cloud {
   background-color: #ecf0f1;
 }
@@ -128,6 +133,14 @@ nav ul {
   display: block;
 }
 
+.main-nav li:hover {
+  background-color: white;
+}
+.main-nav li:hover a {
+  color: #00612e;
+  text-decoration: none;
+}
+
 .menu-topo {
   min-height: 50px;
   height: auto;
@@ -167,10 +180,12 @@ nav ul {
 
 .dia-agenda {
   text-align: center;
-  margin: 40px 5% 0 5%;
+  margin: auto;
+  margin-top: 40px;
   border: double #00612e;
   opacity: 0;
   font-size: 16px;
+  width: 90%;
 }
 
 .agenda-semanal h2 {
@@ -345,6 +360,10 @@ nav ul {
       height: auto;
       transform: translateY(0%);
       padding: 60px 15px;
+    }
+    .super-container{
+      margin-left: 0;
+      margin-right: 0;
     }
 }
 
